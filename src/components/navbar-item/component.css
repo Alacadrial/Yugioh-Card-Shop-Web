@@ -1,0 +1,20 @@
+.navbar-item {
+    text-decoration: none;
+    color: var(--colors-dark);
+    user-select: none;
+}
+
+.navbar-item > h5 {
+    margin: 0 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.navbar-item > * {
+    transition: color .3s ease;
+}
+
+.navbar-item:hover > * {
+    color: var(--colors-orange);
+}

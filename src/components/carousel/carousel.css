@@ -1,0 +1,36 @@
+.carousel-main {
+    background-color: #EFEFEF;
+    min-width: auto;
+    flex-basis: 50%;
+    
+}
+
+.carousel-text-container {
+    width: 50%;
+    min-height: 550px;
+}
+
+.carousel-text-container > h3{
+    font-size: 2.25rem;
+}
+
+.carousel-text-container > p{
+    font-size: 1.125rem;
+    color: gray;
+}
+
+.carousel-image-container {
+    width: 50%;
+    max-width: 1024;
+    min-height: 550px;
+}
+
+.carousel-item-image {
+    padding: 5%;
+    width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 5%;
+}
+

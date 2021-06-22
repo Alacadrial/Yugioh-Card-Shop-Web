@@ -1,0 +1,17 @@
+.text-block{
+    background-color:  var(--colors-light);
+    margin-bottom: 1%;
+    padding: 2%;
+    width: 100%;
+}
+
+.text-block > h3{
+    margin-bottom: 1%;
+    color:  var(--colors-orange);
+    font-weight: bold;
+    text-align: center;
+
+}
+.text-block > p{
+    text-align: center;
+}

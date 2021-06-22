@@ -1,0 +1,23 @@
+.bs-navitem > * {
+    text-decoration: none;
+    color: var(--colors-dark);
+    transition: color .3s ease;
+}
+
+.bs-navitem > span {
+    font-weight: 600;
+}
+
+.bs-navitem:hover > * {
+    color: var(--colors-orange);
+}
+
+.Footer{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color: var(--colors-orange);
+    text-align: center;
+    font-weight: bold;
+    padding: 1%;
+}

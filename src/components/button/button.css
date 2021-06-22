@@ -1,0 +1,15 @@
+﻿
+.btn {
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    font-weight: 600;
+    background: var(--colors-orange);
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:focus {
+    box-shadow: none;
+}

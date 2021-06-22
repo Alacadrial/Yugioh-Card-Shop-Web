@@ -1,0 +1,64 @@
+.whole-wrap{
+    max-width: 175px;
+    max-height: 375px;
+}
+
+.container {
+    max-width: 13rem;
+    max-width: 100%;
+}
+
+.card-wrap {
+    background-color: var(--colors-light);
+    max-width: 10.938rem;
+    border-radius: 8%
+}
+.card-wrap > img {
+    padding: 0.75rem 0.5px;
+    border-radius: 8%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-info{
+    padding: 1rem 0 0 0;
+    padding-left: 4px;
+    max-width: 13rem;
+    text-align: left;
+}
+.card-info > :not(.clickable){
+    padding-left:  6px;
+}
+
+/* Title */
+.card-info > p {
+    font-size: 14px;
+    margin-bottom: 0.5px
+}
+
+
+/* Author */
+    .card-info > h6 {
+        font-size: 12px;
+        color: gray;
+        margin-bottom: 6px
+    }
+
+/* Price */
+.card-info > h4 {
+        font-size: 20px;
+        font-weight: 1000;
+}
+
+/* To center FA icon */
+.icon {
+    text-align: center;
+    vertical-align: bottom;
+    padding: 0 3px;
+    display: inline;
+    font-size: 1.75rem;
+}
+
+.clickable{
+    width: 100%;
+}

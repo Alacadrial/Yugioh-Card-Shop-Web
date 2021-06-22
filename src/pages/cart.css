@@ -1,0 +1,36 @@
+.main{
+  width: 100%;
+  text-align: left;
+  padding: 1%;
+}
+
+.product-wrapper{
+  padding: 2px;
+  border: 5px solid var(--colors-orange);
+}
+
+.text{
+margin: 0px;
+font-size: 20px;
+font-weight: 600;
+}
+
+.shopping-cart, .wishlisted-items{
+  width: 100%;
+  background-color: var(--colors-light);
+  padding: 2%
+}
+
+.head-section{
+  color: var(--colors-orange);
+  padding-bottom: 1%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.clickable-section{
+  border: 5px solid var(--colors-dark);
+  padding: 1%;
+  text-align: center;
+  width: 25%;
+}
